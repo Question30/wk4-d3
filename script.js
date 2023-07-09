@@ -104,3 +104,16 @@ console.log(favMovies);
 //11.After running the above tasks, console.log the index of "Fast and Furious" -We removed it from the array, what value do we get when we look for the index of something that is not in the array?
 
 console.log(favMovies.indexOf("Fast and Furious"));
+
+//==========Where is Waldo=======================
+const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+["Lucinda", "Jacc", "Neff", "Snoop"],
+["Petunia", ["Baked Goods", "Waldo"]]];
+
+whereIsWaldo.splice(1, 1);
+console.log(whereIsWaldo);
+
+whereIsWaldo[1][2] = "No One";
+console.log(whereIsWaldo);
+
+console.log(whereIsWaldo[2][1][1]);
