@@ -43,3 +43,10 @@ console.log(dart);
 //4.Porgee decides that Wolfy can't be named "Wolfy" anymore. Remove "Wolfy" from the wolfyarray and replace it with "Gameboy".
 wolfy.splice(0,1, "Gameboy");
 console.log(wolfy);
+
+//========Yell at the Ninja Turtles==========
+const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+
+for (const turtles of ninjaTurtles) {
+    console.log(turtles.toUpperCase())
+}
